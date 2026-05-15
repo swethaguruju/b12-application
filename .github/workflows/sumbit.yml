@@ -22,8 +22,8 @@ jobs:
       - name: Run submission script
         env:
           B12_SIGNING_SECRET: ${{ secrets.B12_SIGNING_SECRET }}
-          APPLICANT_NAME:     ${{ secrets.APPLICANT_NAME }}
-          APPLICANT_EMAIL:    ${{ secrets.APPLICANT_EMAIL }}
+          APPLICANT_NAME:     "Swetha G"       
+          APPLICANT_EMAIL:    "swethaguruju04@gmail.com" 
           RESUME_LINK:        ${{ secrets.RESUME_LINK }}
           REPOSITORY_LINK: ${{ github.server_url }}/${{ github.repository }}
           ACTION_RUN_LINK: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
